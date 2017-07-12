@@ -1,0 +1,14 @@
+{
+    "name": "haskel/grind",
+    "license": "free",
+    "type": "component",
+    "autoload": {
+        "psr-4": {
+            "\\Haskel\\Component\\Grind": "src/"
+        }
+    },
+
+    "require": {
+        "psr/log": "^1.0"
+    }
+}
