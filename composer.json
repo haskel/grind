@@ -1,14 +1,20 @@
 {
     "name": "haskel/grind",
-    "license": "free",
+    "license": "MIT",
     "type": "component",
     "autoload": {
         "psr-4": {
-            "\\Haskel\\Component\\Grind": "src/"
+            "Haskel\\Component\\Grind": "src/"
         }
     },
-
+    "authors": [
+        {
+            "name": "Pavel Khaskel",
+            "email": "haskel.pavel@gmail.com"
+        }
+    ],
     "require": {
+        "php": ">=5.6",
         "psr/log": "^1.0"
     }
 }
